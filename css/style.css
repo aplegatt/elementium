@@ -1,31 +1,42 @@
 * {
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	background-color: #636363;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background-color: #636363;
 }
 
 h2 {
-	margin: 0;
+  margin: 0;
+}
+
+#page-wrapper {
+  width: 100%;
 }
 
 #description {
-	float: left;
-	width: 670px;
-	text-align: justify;
-	font-weight: bold;
-	margin-top: 100px;
+  float: left;
+  width: 33%;
+  text-align: justify;
+  font-weight: bold;
+  margin: 100px 0;
+  padding-right: 15px;
 }
 
 #game {
-	width: 480px;
-	margin: 0 auto;
+  float: left;
+  width: 33%;
 }
 
 #hiscorebox {
-	font-size: 24px;
+  font-size: 24px;
 }
 
 #hiscore {
-	font-size: 48px;
+  font-size: 48px;
+}
+
+@media screen and (max-width: 768px) {
+  #description {
+    width: 100%;
+  }
 }
